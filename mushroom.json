@@ -1,0 +1,95 @@
+{
+    "jamur": [
+      {
+        "mushroom": "Trichaptum biforme",
+        "nama_indonesia": "Cincin Tiga",
+        "status_edibility": "conditionally_edible",
+        "keterangan": "Bisa dimakan saat masih muda, tapi kurang enak saat dewasa."
+      },
+      {
+        "mushroom": "Schizophyllum commune",
+        "nama_indonesia": "Jamur Kayu",
+        "status_edibility": "edible",
+        "keterangan": "Bisa dimakan, aman untuk dikonsumsi."
+      },
+      {
+        "mushroom": "Pleurotus ostreatus",
+        "nama_indonesia": "Jamur Tiram",
+        "status_edibility": "edible",
+        "keterangan": "Bisa dimakan, jamur tiram."
+      },
+      {
+        "mushroom": "Paxillus involutus",
+        "nama_indonesia": "Tunggal",
+        "status_edibility": "conditionally_edible",
+        "keterangan": "Bisa dimakan dengan syarat, bisa beracun bagi beberapa orang."
+      },
+      {
+        "mushroom": "Leccinum aurantiacum",
+        "nama_indonesia": "Kuning Telur",
+        "status_edibility": "conditionally_edible",
+        "keterangan": "Bisa dimakan dengan syarat, perlu diolah dengan benar sebelum dikonsumsi."
+      },
+      {
+        "mushroom": "Gyromitra gigas",
+        "nama_indonesia": "Raksasa",
+        "status_edibility": "poisonous",
+        "keterangan": "Beracun, bisa membahayakan."
+      },
+      {
+        "mushroom": "Ganoderma applanatum",
+        "nama_indonesia": "Reishi",
+        "status_edibility": "conditionally_edible",
+        "keterangan": "Bisa dimakan dengan syarat, lebih baik digunakan untuk obat tradisional."
+      },
+      {
+        "mushroom": "Fomes fomentarius",
+        "nama_indonesia": "Kayu Api",
+        "status_edibility": "conditionally_edible",
+        "keterangan": "Bisa dimakan dengan syarat, lebih baik digunakan untuk membuat api."
+      },
+      {
+        "mushroom": "Flammulina velutipes",
+        "nama_indonesia": "Enoki",
+        "status_edibility": "edible",
+        "keterangan": "Bisa dimakan, jamur enoki."
+      },
+      {
+        "mushroom": "Cerioporus squamosus",
+        "nama_indonesia": "Cendawan",
+        "status_edibility": "edible",
+        "keterangan": "Bisa dimakan, aman untuk dikonsumsi."
+      },
+      {
+        "mushroom": "Calycina citrina",
+        "nama_indonesia": "Sitrun",
+        "status_edibility": "poisonous",
+        "keterangan": "Beracun, tidak aman untuk dikonsumsi."
+      },
+      {
+        "mushroom": "Boletus edulis",
+        "nama_indonesia": "Cep",
+        "status_edibility": "conditionally_edible",
+        "keterangan": "Bisa dimakan dengan syarat, jamur yang sangat populer tetapi harus dimasak dengan baik."
+      },
+      {
+        "mushroom": "Amanita rubescens",
+        "nama_indonesia": "Kemerah-merahan",
+        "status_edibility": "conditionally_edible",
+        "keterangan": "Bisa dimakan dengan syarat, mirip dengan spesies yang beracun, hati-hati."
+      },
+      {
+        "mushroom": "Amanita muscaria",
+        "nama_indonesia": "Beracun Terbang",
+        "status_edibility": "conditionally_edible",
+        "keterangan": "Bisa dimakan dengan syarat setelah pengolahan khusus, secara alami beracun dengan efek psikoaktif."
+      },
+      {
+        "mushroom": "Xanthoria parietina",
+        "nama_indonesia": "Kertas Dinding",
+        "status_edibility": "poisonous",
+        "keterangan": "Beracun, tidak aman untuk dikonsumsi."
+      }
+    ]
+  }
+  

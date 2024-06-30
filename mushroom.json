@@ -1,95 +1,109 @@
 {
-    "jamur": [
-      {
-        "mushroom": "Trichaptum biforme",
-        "nama_indonesia": "Cincin Tiga",
-        "status_edibility": "conditionally_edible",
-        "keterangan": "Bisa dimakan saat masih muda, tapi kurang enak saat dewasa."
-      },
-      {
-        "mushroom": "Schizophyllum commune",
-        "nama_indonesia": "Jamur Kayu",
-        "status_edibility": "edible",
-        "keterangan": "Bisa dimakan, aman untuk dikonsumsi."
-      },
-      {
-        "mushroom": "Pleurotus ostreatus",
-        "nama_indonesia": "Jamur Tiram",
-        "status_edibility": "edible",
-        "keterangan": "Bisa dimakan, jamur tiram."
-      },
-      {
-        "mushroom": "Paxillus involutus",
-        "nama_indonesia": "Tunggal",
-        "status_edibility": "conditionally_edible",
-        "keterangan": "Bisa dimakan dengan syarat, bisa beracun bagi beberapa orang."
-      },
-      {
-        "mushroom": "Leccinum aurantiacum",
-        "nama_indonesia": "Kuning Telur",
-        "status_edibility": "conditionally_edible",
-        "keterangan": "Bisa dimakan dengan syarat, perlu diolah dengan benar sebelum dikonsumsi."
-      },
-      {
-        "mushroom": "Gyromitra gigas",
-        "nama_indonesia": "Raksasa",
-        "status_edibility": "poisonous",
-        "keterangan": "Beracun, bisa membahayakan."
-      },
-      {
-        "mushroom": "Ganoderma applanatum",
-        "nama_indonesia": "Reishi",
-        "status_edibility": "conditionally_edible",
-        "keterangan": "Bisa dimakan dengan syarat, lebih baik digunakan untuk obat tradisional."
-      },
-      {
-        "mushroom": "Fomes fomentarius",
-        "nama_indonesia": "Kayu Api",
-        "status_edibility": "conditionally_edible",
-        "keterangan": "Bisa dimakan dengan syarat, lebih baik digunakan untuk membuat api."
-      },
-      {
-        "mushroom": "Flammulina velutipes",
-        "nama_indonesia": "Enoki",
-        "status_edibility": "edible",
-        "keterangan": "Bisa dimakan, jamur enoki."
-      },
-      {
-        "mushroom": "Cerioporus squamosus",
-        "nama_indonesia": "Cendawan",
-        "status_edibility": "edible",
-        "keterangan": "Bisa dimakan, aman untuk dikonsumsi."
-      },
-      {
-        "mushroom": "Calycina citrina",
-        "nama_indonesia": "Sitrun",
-        "status_edibility": "poisonous",
-        "keterangan": "Beracun, tidak aman untuk dikonsumsi."
-      },
-      {
-        "mushroom": "Boletus edulis",
-        "nama_indonesia": "Cep",
-        "status_edibility": "conditionally_edible",
-        "keterangan": "Bisa dimakan dengan syarat, jamur yang sangat populer tetapi harus dimasak dengan baik."
-      },
-      {
-        "mushroom": "Amanita rubescens",
-        "nama_indonesia": "Kemerah-merahan",
-        "status_edibility": "conditionally_edible",
-        "keterangan": "Bisa dimakan dengan syarat, mirip dengan spesies yang beracun, hati-hati."
-      },
-      {
-        "mushroom": "Amanita muscaria",
-        "nama_indonesia": "Beracun Terbang",
-        "status_edibility": "conditionally_edible",
-        "keterangan": "Bisa dimakan dengan syarat setelah pengolahan khusus, secara alami beracun dengan efek psikoaktif."
-      },
-      {
-        "mushroom": "Xanthoria parietina",
-        "nama_indonesia": "Kertas Dinding",
-        "status_edibility": "poisonous",
-        "keterangan": "Beracun, tidak aman untuk dikonsumsi."
-      }
-    ]
-  }
-  
+  "jamur": [
+    {
+      "mushroom": "Trichaptum biforme",
+      "nama_umum": "Jamur braket berpori ungu",
+      "status_keamanan": "Tidak beracun",
+      "dapat_dikonsumsi":"Tidak",
+      "keterangan": "Memiliki tepi berwarna ungu yang memudar seiring bertambahnya usia."
+    },
+    {
+      "mushroom": "Schizophyllum commune",
+      "nama_umum": "Jamur gerigit",
+      "status_keamanan": "Tidak beracun",
+      "dapat_dikonsumsi": "Ya",
+      "keterangan": "Jamur ini menyerupai gelombang bergelombang dari karang yang padat."
+    },
+    {
+      "mushroom": "Pleurotus ostreatus",
+      "nama_umum": "Jamur Tiram",
+      "status_keamanan": "Tidak beracun",
+      "dapat_dikonsumsi": "Ya",
+      "keterangan": "Jamur yang populer dan sering digunakan dalam berbagai masakan. Teksturnya lembut dan rasanya enak, cocok untuk tumisan, sup, dan hidangan lainnya. Jamur ini juga memiliki berbagai manfaat kesehatan."
+    },
+    {
+      "mushroom": "Paxillus involutus",
+      "nama_umum": "Jamur poison pax",
+      "status_keamanan": "Beracun",
+      "dapat_dikonsumsi": "Tidak",
+      "keterangan": "Jamur ini beracun dan dapat menyebabkan anemia hemolitik autoimun, gagal ginjal, dan kematian. Beberapa kasus keracunan serius telah dilaporkan, termasuk kematian ahli mikologi Jerman Julius Schaeffer pada tahun 1944 setelah mengonsumsi jamur ini."
+    },
+    {
+      "mushroom": "Leccinum aurantiacum",
+      "nama_umum": "Jamur tangkai keropeng bertutup merah",
+      "status_keamanan": "Tidak beracun",
+      "dapat_dikonsumsi": "Ya, Dengan syarat dimasak sampai matang",
+      "keterangan": "Warnanya keputihan, dengan tonjolan pendek dan kaku atau kudis yang berubah menjadi coklat hingga hitam seiring bertambahnya usia."
+    },
+    {
+      "mushroom": "Gyromitra gigas",
+      "nama_umum": "Jamur salju",
+      "status_keamanan": "Beracun",
+      "dapat_dikonsumsi": "Tidak",
+      "keterangan": "Jamur salju dikenal karena bentuknya yang unik, sering kali dianggap mirip dengan salju atau otak."
+    },
+    {
+      "mushroom": "Ganoderma applanatum",
+      "nama_umum": "Jamur kurung artis",
+      "status_keamanan": "Tidak beracun",
+      "dapat_dikonsumsi": "Tidak",
+      "keterangan": "Tubuh buahnya tebal, bergabus dan tidak memiliki tekstur berdaging seperti jamur yang dapat dimakan pada umumnya."
+    },
+    {
+      "mushroom": "Fomes fomentarius",
+      "nama_umum": "Jamur tinder",
+      "status_keamanan": "Tidak beracun",
+      "dapat_dikonsumsi": "Tidak",
+      "keterangan": "Teksturnya sangat keras. Jamur ini lebih sering digunakan dalam pembuatan tinder untuk memulai api atau sebagai bahan dalam beberapa kerajinan tradisional."
+    },
+    {
+      "mushroom": "Flammulina velutipes",
+      "nama_umum": "Jamur enoki liar",
+      "status_keamanan": "Tidak beracun",
+      "dapat_dikonsumsi": "Ya",
+      "keterangan": "Jamur ini sering tumbuh pada kayu yang membusuk dan dikenal dengan tubuhnya yang panjang dan ramping, serta topi kecil berwarna putih."
+    },
+    {
+      "mushroom": "Cerioporus squamosus",
+      "nama_umum": "Jamur punggung burung pegar",
+      "status_keamanan": "Tidak beracun",
+      "dapat_dikonsumsi": "Ya",
+      "keterangan": "Jamur ini dapat dimakan ketika masih muda dan empuk. Namun, seiring bertambahnya usia, jamur ini cenderung menjadi keras dan tidak enak dimakan."
+    },
+    {
+      "mushroom": "Calycina citrina",
+      "nama_umum": "Jamur cangkir peri kuning",
+      "status_keamanan": "Beracun",
+      "dapat_dikonsumsi":"Tidak",
+      "keterangan": "Jamur kecil berwarna kuning yang biasanya tumbuh pada kayu yang membusuk. Sebaiknya hindari mengonsumsi jamur ini karena tidak ada informasi yang cukup mengenai keamanannya sebagai makanan."
+    },
+    {
+      "mushroom": "Boletus edulis",
+      "nama_umum": "Jamur babi bayi",
+      "status_keamanan": "Tidak beracun",
+      "dapat_dikonsumsi": "Ya",
+      "keterangan": "Salah satu jamur yang paling enak dan aman untuk dikonsumsi. Jamur ini memiliki daging tebal, berwarna putih hingga kekuningan, dan sering digunakan dalam berbagai hidangan kuliner."
+    },
+    {
+      "mushroom": "Amanita rubescens",
+      "nama_umum": "Jamur perona pipi",
+      "status_keamanan": "Beracun",
+      "dapat_dikonsumsi": "Ya, Dengan syarat dimasak",
+      "keterangan": "Mengandung protein hemolitik beracun dalam keadaan mentah, tidak berbahaya untuk dikonsumsi dan dapat dihancurkan dengan cara dimasak."
+    },
+    {
+      "mushroom": "Amanita muscaria",
+      "nama_umum": "Jamur kikik lalat",
+      "status_keamanan": "Beracun",
+      "dapat_dikonsumsi": "Tidak",
+      "keterangan": "Jamur ini beracun secara alami dan tidak aman untuk dikonsumsi."
+    },
+    {
+      "mushroom": "Xanthoria parietina",
+      "nama_umum": "Jamur skala kuning",
+      "status_keamanan": "Beracun",
+      "dapat_dikonsumsi": "Tidak",
+      "keterangan": "Dapat ditemukan di dekat pantai pada batu, dinding atau kulit pohon."
+    }
+  ]
+}

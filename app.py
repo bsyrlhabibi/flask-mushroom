@@ -14,16 +14,15 @@ interpreter = tf.lite.Interpreter(model_path=model_path)
 interpreter.allocate_tensors()
 
 # Daftar nama kelas
-class_names = ['Amanita muscaria', 'Amanita rubescens', 'Boletus edulis', 'Calycina citrina', 'Cerioporus squamosus', 'Flammulina velutipes', 'Fomes fomentarius', 'Ganoderma applanatum',
-               'Gyromitra gigas', 'Leccinum aurantiacum', 'Paxillus involutus', 'Pleurotus ostreatus', 'Schizophyllum commune', 'Trichaptum biforme', 'Xanthoria parietina']
+class_names = ['Amanita muscaria', 'Amanita rubescens', 'Boletus edulis', 'Calycina citrina', 'Cerioporus squamosus',
+               'Flammulina velutipes', 'Fomes fomentarius', 'Ganoderma applanatum',
+               'Gyromitra gigas', 'Leccinum aurantiacum', 'Paxillus involutus', 'Pleurotus ostreatus',
+               'Schizophyllum commune', 'Trichaptum biforme', 'Xanthoria parietina']
 
-# Load data nutrisi dari file JSON
-with open('mushroom.json', 'r') as file:
-    fastfood_data = json.load(file)
-
-# Load data nutrisi dari file JSON
+# Load data mushroom dari file JSON
 with open('mushroom.json', 'r') as file:
     mushroom_data = json.load(file)
+
 
 # Fungsi untuk melakukan preprocessing gambar dengan tipe FLOAT32
 def preprocess_image(image_data, target_size=(256, 256)):
@@ -44,6 +43,7 @@ def preprocess_image(image_data, target_size=(256, 256)):
     image_array = np.expand_dims(image_array, axis=0)
 
     return image_array
+
 
 # Fungsi untuk melakukan prediksi berdasarkan gambar menggunakan model TFLite
 def predict_image(image_data):
@@ -70,13 +70,15 @@ def predict_image(image_data):
     for mushroom in mushroom_data['jamur']:  # Ubah disini
         if mushroom['mushroom'] == predicted_class:
             information = {
-                'nama_indonesia': mushroom['nama_indonesia'],
-                'status_edibility': mushroom['status_edibility'],
+                'nama_umum': mushroom['nama_umum'],
+                'status_keamanan': mushroom['status_keamanan'],
+                'dapat_dikonsumsi': mushroom['dapat_dikonsumsi'],
                 'keterangan': mushroom['keterangan'],
             }
             break
 
     return predicted_class, confidence, information
+
 
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -100,6 +102,7 @@ def predict():
     }
 
     return jsonify(response)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
